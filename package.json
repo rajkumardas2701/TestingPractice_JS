@@ -1,0 +1,40 @@
+{
+  "name": "testingpractice_js",
+  "version": "1.0.0",
+  "description": "> One paragraph statement about the project.",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/jest": "^26.0.19",
+    "babel-eslint": "^10.1.0",
+    "babel-install": "^2.1.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.6.3",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.17.2",
+    "ts-node": "^9.1.1",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajkumardas2701/TestingPractice_JS.git"
+  },
+  "author": "Rajkumar Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajkumardas2701/TestingPractice_JS/issues"
+  },
+  "homepage": "https://github.com/rajkumardas2701/TestingPractice_JS#readme"
+}

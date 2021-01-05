@@ -1,73 +1,48 @@
-# Project Name
+# Testing Practise using Jest
 
-> One paragraph statement about the project.
+> Using Jest to test different code blocks.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/coverage_cmd.png)
+![screenshot](./images/coverage.png)
 
-Additional description about the project and its features.
+In this project, I have used jest to check the coverage and testing different functions. This project is just about to get hold of testing concept in JS.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+- JavaScript
+- Jest
 
 ### Setup
 
+- Fork the repo to your remote repository.
+- Clone or download the repository to your local machine.
+
 ### Install
 
-### Usage
+- Ensure that you have node.js and npm installed in your machine.
+- Run npm install to install the project packages
 
 ### Run tests
 
-### Deployment
-
-
+- Run npm run test to run the test.
 
 ## Authors
 
-👤 **Author1**
+👤 **Rajkumar Das**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@rajkumardas2701](https://github.com/rajkumardas2701)
+- Twitter: [@Rajkuma58621299](https://twitter.com/Rajkuma58621299)
+- Linkedin: [Rajkumar Das](https://www.linkedin.com/in/rajkumar-das-41308961/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/rajkumardas2701/TestingPractice_JS/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
