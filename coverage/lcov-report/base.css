@@ -1,3 +1,7 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword, declaration-block-single-line-max-declarations */
+/* stylelint-disable no-descending-specificity, block-no-empty */
+/* stylelint-disable no-duplicate-selectors */
+
 body,
 html {
   margin: 0;
@@ -6,7 +10,7 @@ html {
 }
 
 body {
-  font-family: Helvetica Neue, Helvetica, Arial;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
   color: #333;
 }
@@ -19,18 +23,32 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-h1 { font-size: 20px; margin: 0; }
-h2 { font-size: 14px; }
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 14px;
+}
 
 pre {
   font: 12px/1.4 Consolas, "Liberation Mono", Menlo, Courier, monospace;
   margin: 0;
   padding: 0;
-  -moz-tab-size: 2;
-  -o-tab-size: 2;
+
+  /* -moz-tab-size: 2;
+  -o-tab-size: 2; */
+
   tab-size: 2;
 }
-a { color: #0074d9; text-decoration: none; }
+
+a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
 a:hover { text-decoration: underline; }
 .strong { font-weight: bold; }
 .space-top1 { padding: 10px 0 0 0; }
@@ -54,8 +72,14 @@ a:hover { text-decoration: underline; }
 .fl { float: left; }
 
 @media only screen and (max-width: 640px) {
-  .col3 { width: 100%; max-width: 100%; }
-  .hide-mobile { display: none !important; }
+  .col3 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hide-mobile {
+    display: none !important;
+  }
 }
 
 .quiet {
@@ -83,11 +107,18 @@ table.coverage {
   padding: 0;
 }
 
+.coverage-summary td,
+.coverage-summary th { padding: 10px; }
+.coverage-summary tbody { border: 1px solid #bbb; }
+.coverage-summary td { border-right: 1px solid #bbb; }
+
 table.coverage td {
   margin: 0;
   padding: 0;
   vertical-align: top;
 }
+
+.coverage-summary td:last-child { border-right: none; }
 
 table.coverage td.line-count {
   text-align: right;
@@ -136,12 +167,6 @@ table.coverage td span.cline-any {
 }
 .coverage-summary tr { border-bottom: 1px solid #bbb; }
 .keyline-all { border: 1px solid #ddd; }
-
-.coverage-summary td,
-.coverage-summary th { padding: 10px; }
-.coverage-summary tbody { border: 1px solid #bbb; }
-.coverage-summary td { border-right: 1px solid #bbb; }
-.coverage-summary td:last-child { border-right: none; }
 
 .coverage-summary th {
   text-align: left;
